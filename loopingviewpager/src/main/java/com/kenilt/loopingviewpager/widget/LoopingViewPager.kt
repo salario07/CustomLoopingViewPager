@@ -14,7 +14,7 @@ import com.kenilt.loopingviewpager.util.LoopingUtil.getPagerPosition
 /**
  * Created by Kenilt on 3/11/20.
  */
-class LoopingViewPager : ViewPager {
+open class LoopingViewPager : ViewPager {
 
     private var originalAdapter: PagerAdapter? = null
     private var internalAdapter: PagerAdapter? = null
